@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+
 gem 'rails', '4.1.6'
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'sqlite3'
@@ -13,3 +14,5 @@ gem 'spring',        group: :development
 gem 'autoprefixer-rails'
 gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-bootstrap' 
+gem 'pg', group: :production
+gem 'rails_12factor', group: :production
